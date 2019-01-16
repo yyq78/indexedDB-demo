@@ -1,0 +1,40 @@
+  body{
+    font-size:16px;
+    line-height:1.5;
+    color:#333;
+    font-family: Arial, sans-serif;
+  }
+  .demo{
+    width:65%;
+    margin:0 auto;
+  }
+  textarea {
+    vertical-align: top;
+    width: 20em;
+ }
+  input,textarea{
+    padding: 8px 10px;
+    font-size: 100%;
+    font-family: inherit;
+    min-width: calc(100% - 7.5em);
+  }
+  input[type='submit']{
+    margin-left:5em;
+    width:calc(100% - 6em);
+  }
+  #result{
+    margin-top:60px;
+   min-width: 600px;
+    border: 1px solid #ddd;
+    min-width:calc(100% - 1em);
+  }
+  table{
+    width:100%;
+    line-height: 2.5em;
+    border-collapse: collapse;
+    text-align:center;
+    vertical-align: middle;
+  }
+  th{
+    background-color: #f5f5f5;
+  }
